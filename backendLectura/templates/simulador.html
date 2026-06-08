@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Envío de Correos - Daily Planet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .resultado {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .enviados {
+            margin-top: 20px;
+        }
+        .enviado-item {
+            background-color: #e9ecef;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simulador de Envío de Correos</h1>
+    <p style="text-align: center; color: #666;"></p>
+
+    <div class="card">
+        <form method="POST">
+            <label for="destino">Correo Destino:</label>
+            <input type="email" id="destino" name="destino" value="dailyplanet.puebra@gmail.com" required>
+
+            <label for="cantidad">Cantidad de correos a enviar:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="200" value="5" required>
+
+            <label for="pausa">Pausa entre envíos (segundos):</label>
+            <input type="number" id="pausa" name="pausa" min="0" max="10" step="0.5" value="1" required>
+
+            <button type="enviar">Enviar Correos</button>
+        </form>
+    </div>
+
+    {% if resultado %}
+    <div class="resultado">
+        <h3>Resultado del envío</h3>
+        <p><strong>Cantidad enviada:</strong> {{ resultado.cantidad }}</p>
+        <p><strong>Destino:</strong> {{ resultado.destino }}</p>
+        <p><strong>Tiempo total:</strong> {{ resultado.tiempo_total }} segundos</p>
+    </div>
+    {% endif %}
+
+    {% if enviados %}
+    <div class="enviados">
+        <h3>Correos enviados</h3>
+        {% for envio in enviados %}
+        <div class="enviado-item">
+            <strong>#{{ envio.numero }}</strong> - {{ envio.asunto }}<br>
+            <small>Destino: {{ envio.destino }}</small>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+
+</body>
+</html>

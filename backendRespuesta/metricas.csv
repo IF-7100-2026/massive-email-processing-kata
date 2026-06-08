@@ -1,0 +1,26 @@
+fecha_registro,id_mensaje_imap,remitente,asunto,categoria,destino,fecha_extraccion,tiempo_procesamiento_segundos
+2026-06-07 22:17:24,881,betth2002@gmail.com,Quiero enviar una noticia #1,Envio de noticia,Respuesta automática,2026-06-08 04:17:16,8.7006
+2026-06-07 22:17:27,882,betth2002@gmail.com,Quiero enviar una noticia #2,Envio de noticia,Respuesta automática,2026-06-08 04:17:16,10.8451
+2026-06-07 22:17:29,883,betth2002@gmail.com,Tengo una queja #3,Queja,Cola de atención humana,2026-06-08 04:17:16,12.9375
+2026-06-07 22:17:31,884,betth2002@gmail.com,Consulta general #4,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:16,14.4309
+2026-06-07 22:17:43,885,betth2002@gmail.com,Consulta general #5,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:17,26.7698
+2026-06-07 22:17:46,886,betth2002@gmail.com,Quiero suscribirme al boletin #6,Suscripcion,Respuesta automática,2026-06-08 04:17:17,28.845
+2026-06-07 22:17:49,887,betth2002@gmail.com,Quiero suscribirme al boletin #7,Suscripcion,Respuesta automática,2026-06-08 04:17:17,31.554
+2026-06-07 22:17:50,888,betth2002@gmail.com,Necesito informacion #8,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:17,32.9611
+2026-06-07 22:17:53,889,betth2002@gmail.com,Consulta general #9,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:17,35.7589
+2026-06-07 22:17:56,890,betth2002@gmail.com,Quiero enviar una noticia #10,Envio de noticia,Respuesta automática,2026-06-08 04:17:18,38.5607
+2026-06-07 22:17:58,891,betth2002@gmail.com,Quiero suscribirme al boletin #11,Suscripcion,Respuesta automática,2026-06-08 04:17:18,39.9915
+2026-06-07 22:18:01,892,betth2002@gmail.com,Tengo una queja #12,Queja,Cola de atención humana,2026-06-08 04:17:18,42.8348
+2026-06-07 22:18:13,893,betth2002@gmail.com,Consulta general #13,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:18,55.0488
+2026-06-07 22:18:16,894,betth2002@gmail.com,Quiero enviar una noticia #14,Envio de noticia,Respuesta automática,2026-06-08 04:17:18,57.3278
+2026-06-07 22:18:18,895,betth2002@gmail.com,Necesito informacion #15,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:19,59.3806
+2026-06-07 22:18:20,896,betth2002@gmail.com,Consulta general #16,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:19,60.9375
+2026-06-07 22:18:22,897,betth2002@gmail.com,Quiero suscribirme al boletin #17,Suscripcion,Respuesta automática,2026-06-08 04:17:19,63.1035
+2026-06-07 22:18:25,898,betth2002@gmail.com,Quiero suscribirme al boletin #18,Suscripcion,Respuesta automática,2026-06-08 04:17:19,65.9107
+2026-06-07 22:18:28,899,betth2002@gmail.com,Quiero enviar una noticia #19,Envio de noticia,Respuesta automática,2026-06-08 04:17:19,68.0791
+2026-06-07 22:18:30,900,betth2002@gmail.com,Necesito informacion #20,Solicitud de informacion,Respuesta automática,2026-06-08 04:17:20,70.827
+2026-06-07 22:27:15,901,betth2002@gmail.com,Consulta general #1,Solicitud de informacion,Respuesta automática,2026-06-08 04:27:04,10.3993
+2026-06-07 22:27:16,902,betth2002@gmail.com,Quiero suscribirme al boletin #2,Suscripcion,Respuesta automática,2026-06-08 04:27:05,11.8388
+2026-06-07 22:27:19,903,betth2002@gmail.com,Consulta general #3,Solicitud de informacion,Respuesta automática,2026-06-08 04:27:05,14.4742
+2026-06-07 22:27:21,904,betth2002@gmail.com,Quiero enviar una noticia #4,Envio de noticia,Respuesta automática,2026-06-08 04:27:05,15.8439
+2026-06-07 22:27:23,905,betth2002@gmail.com,Quiero suscribirme al boletin #5,Suscripcion,Respuesta automática,2026-06-08 04:27:05,17.9393
