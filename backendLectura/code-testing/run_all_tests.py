@@ -29,6 +29,7 @@ def run_all_tests():
     suite.addTests(loader.loadTestsFromTestCase(TestGuardadoBD))
     suite.addTests(loader.loadTestsFromTestCase(TestDuplicados))
     suite.addTests(loader.loadTestsFromTestCase(TestIntegracion))
+    print()
     
     runner = unittest.TextTestRunner(verbosity=2)
     resultado = runner.run(suite)
